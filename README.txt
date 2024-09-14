@@ -10,4 +10,4 @@ Wilsons Emergency Tree Services
 
 Notes
 - Some thing still have to be linked in Highlight section
-- Argon font...?
+- Arvo font
