@@ -1,7 +1,7 @@
 import styles from '../app/styles/page.module.css';
 import Image from 'next/image';
 // TODO change this image
-import BackgroundImage from '../public/general-photos/wilsons-background.jpeg';
+import BackgroundImage from '../public/general-photos/guardian-background.jpeg';
 
 export default function LandingPage() {
   return (
@@ -16,7 +16,7 @@ export default function LandingPage() {
     >
       <Image
         src={BackgroundImage}
-        alt="Wilson's Emergency Tree Service Background"
+        alt="Guardian Emergency Tree Service Background"
         layout="fill"
         objectFit="cover"
         style={{

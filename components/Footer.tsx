@@ -35,8 +35,8 @@ export default function Footer() {
             >
               <a href="tel:+18772288873">(877) 228 - 8873</a>
               <div style={{ height: 10 }} />
-              <a href="mailto:WilsonTreeServiceLLC@gmail.com">
-                WilsonTreeServiceLLC@gmail.com
+              <a href="mailto:Christina@GuardianEmergencyTreeService.com">
+                Christina@GuardianEmergencyTreeService.com
               </a>
               <div style={{ height: 10 }} />
             </div>
@@ -48,7 +48,7 @@ export default function Footer() {
               }}
             >
               <a
-                href="https://www.facebook.com/DavidWilsonTreeService/"
+                href=""
                 target="_blank"
               >
                 <svg
@@ -63,7 +63,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://www.linkedin.com/company/wilsons-emergency-tree-service/posts/?feedView=all"
+                href="https://www.linkedin.com/company/guardian-emergency-tree-service/posts/?feedView=all"
                 target="_blank"
               >
                 <svg
@@ -103,8 +103,8 @@ export default function Footer() {
             >
               <a href="tel:+18772288873">(877) 228 - 8873</a>
               <div style={{ height: 10 }} />
-              <a href="mailto:WilsonTreeServiceLLC@gmail.com">
-                WilsonTreeServiceLLC@gmail.com
+              <a href="mailto:Christina@GuardianEmergencyTreeService.com">
+                Christina@GuardianEmergencyTreeService.com
               </a>
               <div style={{ height: 10 }} />
             </div>
@@ -116,7 +116,7 @@ export default function Footer() {
               }}
             >
               <a
-                href="https://www.facebook.com/DavidWilsonTreeService/"
+                href=""
                 target="_blank"
               >
                 <svg
@@ -131,7 +131,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://www.linkedin.com/company/wilsons-emergency-tree-service/posts/?feedView=all"
+                href="https://www.linkedin.com/company/guardian-emergency-tree-service/posts/?feedView=all"
                 target="_blank"
               >
                 <svg

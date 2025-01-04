@@ -137,7 +137,7 @@ export default function NavBar() {
                     Reviews
                   </a>
                   <a
-                    href="https://www.facebook.com/DavidWilsonTreeService/"
+                    href=""
                     target="_blank"
                     style={{ marginTop: 10, marginBottom: 10, fontSize: 24 }}
                   >
@@ -195,7 +195,7 @@ export default function NavBar() {
               </a>
               <a
                 className={styles.navbar_link}
-                href="https://www.facebook.com/DavidWilsonTreeService/"
+                href=""
                 target="_blank"
               >
                 Facebook

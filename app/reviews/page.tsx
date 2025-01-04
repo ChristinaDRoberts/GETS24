@@ -14,7 +14,7 @@ import PrentissIcon from '../../public/review-icons/prentiss-review.png';
 import DeannaIcon from '../../public/review-icons/deanna-review.png';
 import TeriIcon from '../../public/review-icons/teri-review.png';
 
-import BackgroundImage from '../../public/general-photos/wilsons-background.jpeg';
+import BackgroundImage from '../../public/general-photos/guardian-background.jpeg';
 
 import useMediaQuery from '../../components/MediaQuery';
 
@@ -29,38 +29,23 @@ export default function page() {
     },
     {
       icon: RachelIcon,
-      text: 'Very professional and nice. Hard worker. Does what he says he will and does a good job.',
+      text: 'Very professional and nice. Hard workers. Do what they says they will and they do a good job.',
       name: 'Rachel Palm',
     },
     {
-      icon: TonyIcon,
-      text: 'Wilson Tree service came out and did some tree clearing for me and cut some limbs over my building. He did a great job and I recommend him to anyone needing work done. Very reasonable prices.',
-      name: 'Tony Barnett',
-    },
-    {
       icon: BethanyIcon,
-      text: 'Brent chopped down huge leaning pines on my property so quickly, I was amazed. They were super scary to us, but to him it seemed like nothing! Thanks Brent! 😁',
+      text: 'They chopped down huge leaning pines on my property so quickly, I was amazed. They were super scary to us, but to him it seemed like nothing! Thanks Brent! 😁',
       name: 'Bethany Underwood',
     },
     {
       icon: TomIcon,
-      text: 'Great service..hardworking guy..reasonable prices..would definitely recommend his services.',
+      text: 'Great service..hardworking crew..reasonable prices..would definitely recommend their services.',
       name: 'Tom McGill',
     },
     {
       icon: PrentissIcon,
-      text: 'Brent took down several trees in our yard and did an amazing job! Thanks for your help.',
+      text: 'They took down several trees in our yard and did an amazing job! Thanks for your help.',
       name: 'Prentiss Palm',
-    },
-    {
-      icon: DeannaIcon,
-      text: 'Always on time. Always very polite. Wonderful to do business with. Very professional and great prices! They cut some trees on our property, it took no time at all, clean up and everything.',
-      name: 'Deanna Lingo',
-    },
-    {
-      icon: TeriIcon,
-      text: 'David recently cut some trees and removed some limbs over our home. He did a great job. Very hard worker. Great price. Thank you David.',
-      name: 'Teri Reynolds Wills',
     },
     {
       icon: DestinyIcon,
@@ -84,7 +69,7 @@ export default function page() {
           >
             <Image
               src={BackgroundImage}
-              alt="Wilson's Emergency Tree Service Background"
+              alt="Guardian Emergency Tree Service Background"
               layout="fill"
               objectFit="cover"
               style={{
@@ -136,7 +121,7 @@ export default function page() {
           >
             <Image
               src={BackgroundImage}
-              alt="Wilson's Emergency Tree Service Background"
+              alt="Guardian Emergency Tree Service Background"
               layout="fill"
               objectFit="cover"
               style={{

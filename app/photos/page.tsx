@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import styles from '../styles/page.module.css';
 import Image from 'next/image';
 
-import BackgroundImage from '../../public/general-photos/wilsons-background.jpeg';
+import BackgroundImage from '../../public/general-photos/guardian-background.jpeg';
 
 // image imports
 import Image1 from '../../public/general-photos/action-wrist.png';
@@ -158,7 +158,7 @@ export default function page() {
           >
             <Image
               src={BackgroundImage}
-              alt="Wilson's Emergency Tree Service Background"
+              alt="Guardian Emergency Tree Service Background"
               layout="fill"
               objectFit="cover"
               style={{
@@ -296,7 +296,7 @@ export default function page() {
           >
             <Image
               src={BackgroundImage}
-              alt="Wilson's Emergency Tree Service Background"
+              alt="Guardian Emergency Tree Service Background"
               layout="fill"
               objectFit="cover"
               style={{
