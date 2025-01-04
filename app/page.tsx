@@ -13,6 +13,7 @@ import Highlights from '../components/Highlights';
 import ReviewCard from '../components/ReviewCard';
 
 // images
+// TODO replace all but Rot in this section
 import RemovalImage from '../public/general-photos/wrist.png';
 import PruningImage from '../public/general-photos/prune.png';
 import AssessmentImage from '../public/general-photos/rot.jpg';
@@ -21,8 +22,8 @@ import OwnerImage from '../public/general-photos/saw-dust-smile.png';
 // icons
 import CarrieIcon from '../public/review-icons/carrie-review.png';
 import TomIcon from '../public/review-icons/tom-review.png';
-import DeannaIcon from '../public/review-icons/deanna-review.png';
-import TeriIcon from '../public/review-icons/teri-review.png';
+// import DeannaIcon from '../public/review-icons/deanna-review.png';
+// import TeriIcon from '../public/review-icons/teri-review.png';
 
 import useMediaQuery from '../components/MediaQuery';
 
@@ -38,6 +39,7 @@ export default function Home() {
           <LandingPage />
 
           <PageLayout>
+            {/* TODO update language in these sections */}
             {/* What We Do Section */}
             <div>
               <h3 className={styles.center_text} style={{ marginTop: 50 }}>
@@ -46,6 +48,7 @@ export default function Home() {
               <div style={{ height: 25 }} />
 
               <Card
+                // TODO change this image
                 image={PruningImage}
                 title={'Emergency Serivce'}
                 text={'Lorem ipsum dolor sit amet'}

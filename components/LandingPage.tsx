@@ -1,5 +1,6 @@
 import styles from '../app/styles/page.module.css';
 import Image from 'next/image';
+// TODO change this image
 import BackgroundImage from '../public/general-photos/wilsons-background.jpeg';
 
 export default function LandingPage() {
@@ -25,10 +26,11 @@ export default function LandingPage() {
         }}
       />
       <h1 className={styles.center_text} style={{ color: 'white' }}>
-        Wilsons Emergency <br />
+        Guardian Emergency <br />
         Tree Service
       </h1>
       <p style={{ textAlign: 'center', width: 300, color: 'white' }}>
+        {/* TODO write what needs to be here */}
         Lorem ipsum dolor sit amet loream ipsum dolor sit amet lorem ipsum.
       </p>
       <div style={{ height: 25 }} />
@@ -52,7 +54,7 @@ export function MobileLandingPage() {
     >
       <Image
         src={BackgroundImage}
-        alt="Wilson's Emergency Tree Service Background"
+        alt="Guardian Emergency Tree Service Background"
         layout="fill"
         objectFit="cover"
         style={{
@@ -65,7 +67,7 @@ export function MobileLandingPage() {
         className={styles.center_text}
         style={{ color: 'white', fontSize: 45 }}
       >
-        Wilsons Emergency <br />
+        Guardian Emergency <br />
         Tree Service
       </h1>
       <p style={{ textAlign: 'center', width: 300, color: 'white' }}>
