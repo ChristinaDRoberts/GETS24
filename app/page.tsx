@@ -21,8 +21,8 @@ import AssessmentImage from '../public/general-photos/rot.jpg';
 import OwnerImage from '../public/general-photos/christina-roberts.png';
 
 // icons
-import CarrieIcon from '../public/review-icons/carrie-review.png';
-import TomIcon from '../public/review-icons/tom-review.png';
+import DrakeIcon from '../public/review-icons/drake-review.png';
+import TracyIcon from '../public/review-icons/tracy-review.png';
 
 import useMediaQuery from '../components/MediaQuery';
 
@@ -38,8 +38,6 @@ export default function Home() {
           <LandingPage />
 
           <PageLayout>
-            {/* TODO update language in these sections */}
-            {/* What We Do Section */}
             <div>
               <h3 className={styles.center_text} style={{ marginTop: 50 }}>
                 What We Do Best
@@ -47,7 +45,6 @@ export default function Home() {
               <div style={{ height: 25 }} />
 
               <Card
-                // TODO change this image
                 image={EmergencyImage}
                 title={'Emergency Mitigation'}
                 text={'Hurricanes, tornadoes, ice storms and heavy rain can all cause fallen trees on your home and other structures. We ae here to quickly and safely mitigate storm damage to get you back into your home and prevent further damage. We will even handle the claim with your insurance company, so you can focus on your immediate needs. '}
@@ -101,7 +98,7 @@ export default function Home() {
               </p>
 
               <Highlights />
-              <a href="tel:+18772288873" target="_blank">
+              <a href="tel:+18648008733" target="_blank">
                 <button
                   style={{ fontSize: 25, width: 500 }}
                   className={styles.highlight_button}
@@ -158,26 +155,19 @@ export default function Home() {
                 }}
               >
                 <ReviewCard
-                  icon={CarrieIcon}
+                  icon={DrakeIcon}
                   text={
-                    'Very professional team! Speedy and efficient service. Had multiple tress and hanging limbs that needed to be removed, and the job was done by lunchtime! Highly recommend.'
+                    'Super appreciative of their service and timely assistance. Came to take down a tree still hanging out after Hurricane Helene, the day before we were getting hit with a big ice/snow storm! Now I feel safe and happy.'
                   }
-                  name={'Carrie Bailey'}
+                  name={'Drake Davis'}
                 />
                 <ReviewCard
-                  icon={TomIcon}
+                  icon={TracyIcon}
                   text={
-                    'Great service..hardworking guy..reasonable prices..would definitely recommend his services.'
+                    'Guardian Tree did an amazing and fast job.  They also handled getting our root ball which was over 5 feet tall and you would never have known that 2 trees were ever there!  They took 3 more trees down for us so we don’t have to worry about the next hurricane or storm!  The team was friendly and they stacked the trees for FEMA the best I’ve ever seen it done!  Thank you Guardian Emergency Tree Service for a job well done!'
                   }
-                  name={'Tom McGill'}
+                  name={'Tracy Goodwin'}
                 />
-                {/* <ReviewCard
-                  icon={DeannaIcon}
-                  text={
-                    'Always on time. Always very polite. Wonderful to do business with. Very professional and great prices! They cut some trees on our property, it took no time at all, clean up and everything.'
-                  }
-                  name={'Deanna Lingo'}
-                /> */}
               </div>
 
               <div style={{ height: 20 }} />
@@ -210,7 +200,7 @@ export default function Home() {
                 nisi ut aliquip ex ea commodo consequat.
               </p>
               <div style={{ height: 25 }} />
-              <a href="tel:+18772288873" target="_blank">
+              <a href="tel:+18648008733" target="_blank">
                 <button style={{ fontSize: 25 }}>Call Now</button>{' '}
               </a>
             </div>
@@ -284,7 +274,7 @@ export default function Home() {
               </p>
 
               <Highlights />
-              <a href="tel:+18772288873" target="_blank">
+              <a href="tel:+18648008733" target="_blank">
                 <button
                   style={{ fontSize: 25, width: 500 }}
                   className={styles.highlight_button}
@@ -386,7 +376,7 @@ export default function Home() {
                 nisi ut aliquip ex ea commodo consequat.
               </p>
               <div style={{ height: 25 }} />
-              <a href="tel:+18772288873" target="_blank">
+              <a href="tel:+18648008733" target="_blank">
                 <button style={{ fontSize: 25 }}>Call Now</button>
               </a>
             </div>
@@ -460,7 +450,7 @@ export default function Home() {
             </p>
 
             <Highlights />
-            <a href="tel:+18772288873" target="_blank">
+            <a href="tel:+18648008733" target="_blank">
               <button style={{ fontSize: 20, lineHeight: 1.5 }}>
                 Call Now for a <br />
                 Free Quote
@@ -513,19 +503,18 @@ export default function Home() {
               }}
             >
               <ReviewCard
-                icon={CarrieIcon}
+                icon={DrakeIcon}
                 text={
-                  'Very professional team! Speedy and efficient service. Had multiple tress and hanging limbs that needed to be removed, and the job was done by lunchtime! Highly recommend.'
+                  'Super appreciative of their service and timely assistance. Came to take down a tree still hanging out after Hurricane Helene, the day before we were getting hit with a big ice/snow storm! Now I feel safe and happy.'
                 }
-                name={'Carrie Bailey'}
+                name={'Drake Davis'}
               />
-              {/* <ReviewCard
-                icon={DeannaIcon}
-                text={
-                  'Always on time. Always very polite. Wonderful to do business with. Very professional and great prices! They cut some trees on our property, it took no time at all, clean up and everything.'
+              <ReviewCard
+                icon={TracyIcon}
+                text={'Guardian Tree did an amazing and fast job.  They also handled getting our root ball which was over 5 feet tall and you would never have known that 2 trees were ever there!  They took 3 more trees down for us so we don’t have to worry about the next hurricane or storm!  The team was friendly and they stacked the trees for FEMA the best I’ve ever seen it done!  Thank you Guardian Emergency Tree Service for a job well done!'
                 }
-                name={'Deanna Lingo'}
-              /> */}
+                name={'Tracy Goodwin'}
+              />
             </div>
 
             <div style={{ height: 20 }} />
@@ -557,7 +546,7 @@ export default function Home() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
             <div style={{ height: 25 }} />
-            <a href="tel:+18772288873" target="_blank">
+            <a href="tel:+18648008733" target="_blank">
               <button style={{ fontSize: 25 }}>Call Now</button>
             </a>
           </div>

@@ -33,7 +33,7 @@ export default function Footer() {
                 paddingLeft: 10,
               }}
             >
-              <a href="tel:+18772288873">(877) 228 - 8873</a>
+              <a href="tel:+18648008733">(877) 228 - 8873</a>
               <div style={{ height: 10 }} />
               <a href="mailto:Christina@GuardianEmergencyTreeService.com">
                 Christina@GuardianEmergencyTreeService.com
@@ -101,7 +101,7 @@ export default function Footer() {
                 textAlign: 'right',
               }}
             >
-              <a href="tel:+18772288873">(877) 228 - 8873</a>
+              <a href="tel:+18648008733">(877) 228 - 8873</a>
               <div style={{ height: 10 }} />
               <a href="mailto:Christina@GuardianEmergencyTreeService.com">
                 Christina@GuardianEmergencyTreeService.com
