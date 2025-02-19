@@ -485,7 +485,7 @@ export default function Home() {
             <p
               style={{
                 textAlign: 'center',
-                color: 'var(--dark-blue)',
+                color: 'var(--black)',
               }}
             >
               We value our customers, and it shows!
@@ -542,7 +542,7 @@ export default function Home() {
           >
             <h3 style={{ color: 'white' }}>Don't wait</h3>
             <h2 style={{ fontSize: 35 }}>schedule your Free Quote Today!</h2>
-            <p style={{ width: '80%', color: 'var(--dark-blue)' }}>
+            <p style={{ width: '80%', color: 'var(--black)' }}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
             <div style={{ height: 25 }} />

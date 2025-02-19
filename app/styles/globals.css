@@ -24,6 +24,9 @@
   --dark-blue: #253452;
   --med-blue: #446e8d;
   --light-blue: #a1c3c7;
+  --dark-grey: #808080;
+  --black: #000000;
+  --grey: #A9A9A9;
 }
 
 body {
@@ -76,7 +79,7 @@ button {
 button:hover {
   cursor: pointer;
   background-color: var(--light-blue);
-  color: var(--dark-blue);
+  color: var(--black);
 }
 
 a {

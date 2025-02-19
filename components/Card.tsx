@@ -117,7 +117,7 @@ export function ResponsiveCard({
       {isMobile ? (
         <p
           style={{
-            color: 'var(--dark-blue)',
+            color: 'var(--black)',
             textAlign: 'center',
             width: '75%',
           }}

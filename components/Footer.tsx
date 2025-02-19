@@ -14,7 +14,7 @@ export default function Footer() {
       {isMobile ? (
         <div
           style={{
-            backgroundColor: 'var(--dark-blue)',
+            backgroundColor: 'var(--black)',
             padding: 25,
             paddingTop: 50,
             paddingBottom: 50,
@@ -83,7 +83,7 @@ export default function Footer() {
       ) : (
         <div
           style={{
-            backgroundColor: 'var(--dark-blue)',
+            backgroundColor: 'var(--black)',
             display: 'flex',
             justifyContent: 'space-between',
             alignItems: 'center',

@@ -3,7 +3,7 @@
 }
 
 .navbar_modal_button:hover {
-  background-color: var(--dark-blue);
+  background-color: var(--black);
   color: white;
 }
 
@@ -126,6 +126,6 @@
 }
 
 .highlight_button:hover {
-  background-color: var(--dark-blue);
+  background-color: var(--black);
   color: white;
 }
