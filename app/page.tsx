@@ -14,16 +14,15 @@ import ReviewCard from '../components/ReviewCard';
 
 // images
 // TODO replace all but Rot in this section
-import RemovalImage from '../public/general-photos/wrist.png';
-import PruningImage from '../public/general-photos/prune.png';
+import EmergencyImage from '../public/general-photos/melvin-point.png';
+import RemovalImage from '../public/general-photos/square_throw.png';
+import PruningImage from '../public/general-photos/orange-climb-2.png';
 import AssessmentImage from '../public/general-photos/rot.jpg';
-import OwnerImage from '../public/general-photos/saw-dust-smile.png';
+import OwnerImage from '../public/general-photos/christina-roberts.png';
 
 // icons
 import CarrieIcon from '../public/review-icons/carrie-review.png';
 import TomIcon from '../public/review-icons/tom-review.png';
-// import DeannaIcon from '../public/review-icons/deanna-review.png';
-// import TeriIcon from '../public/review-icons/teri-review.png';
 
 import useMediaQuery from '../components/MediaQuery';
 
@@ -49,7 +48,7 @@ export default function Home() {
 
               <Card
                 // TODO change this image
-                image={PruningImage}
+                image={EmergencyImage}
                 title={'Emergency Serivce'}
                 text={'Lorem ipsum dolor sit amet'}
               />
@@ -172,13 +171,13 @@ export default function Home() {
                   }
                   name={'Tom McGill'}
                 />
-                <ReviewCard
+                {/* <ReviewCard
                   icon={DeannaIcon}
                   text={
                     'Always on time. Always very polite. Wonderful to do business with. Very professional and great prices! They cut some trees on our property, it took no time at all, clean up and everything.'
                   }
                   name={'Deanna Lingo'}
-                />
+                /> */}
               </div>
 
               <div style={{ height: 20 }} />
@@ -234,7 +233,7 @@ export default function Home() {
               <div style={{ height: 25 }} />
 
               <ResponsiveCard
-                image={PruningImage}
+                image={EmergencyImage}
                 title={'Emergency Serivce'}
                 text={'Lorem ipsum dolor sit amet'}
               />
@@ -354,20 +353,7 @@ export default function Home() {
                   }
                   name={'Tom McGill'}
                 />
-                <ReviewCard
-                  icon={DeannaIcon}
-                  text={
-                    'Always on time. Always very polite. Wonderful to do business with. Very professional and great prices! They cut some trees on our property, it took no time at all, clean up and everything.'
-                  }
-                  name={'Deanna Lingo'}
-                />
-                <ReviewCard
-                  icon={TeriIcon}
-                  text={
-                    'David recently cut some trees and removed some limbs over our home. He did a great job. Very hard worker. Great price. Thank you David.'
-                  }
-                  name={'Teri Reynolds Wills'}
-                />
+
               </div>
 
               <div style={{ height: 20 }} />
@@ -533,13 +519,13 @@ export default function Home() {
                 }
                 name={'Carrie Bailey'}
               />
-              <ReviewCard
+              {/* <ReviewCard
                 icon={DeannaIcon}
                 text={
                   'Always on time. Always very polite. Wonderful to do business with. Very professional and great prices! They cut some trees on our property, it took no time at all, clean up and everything.'
                 }
                 name={'Deanna Lingo'}
-              />
+              /> */}
             </div>
 
             <div style={{ height: 20 }} />

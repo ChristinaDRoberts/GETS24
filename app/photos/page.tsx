@@ -7,24 +7,24 @@ import Image from 'next/image';
 import BackgroundImage from '../../public/general-photos/guardian-background.jpeg';
 
 // image imports
-import Image1 from '../../public/general-photos/action-wrist.png';
-import Image2 from '../../public/general-photos/big-climb.png';
+import Image1 from '../../public/old_photos/action-wrist.png';
+import Image2 from '../../public/old_photos/big-climb.png';
 import Image3 from '../../public/general-photos/center-climb.jpg';
-import Image4 from '../../public/general-photos/chipper.png';
-import Image5 from '../../public/general-photos/climb-down.png';
-import Image6 from '../../public/general-photos/down_bucket.png';
-import Image7 from '../../public/general-photos/dust-trail.png';
+import Image4 from '../../public/old_photos/chipper.png';
+import Image5 from '../../public/old_photos/climb-down.png';
+import Image6 from '../../public/old_photos/down_bucket.png';
+import Image7 from '../../public/old_photos/dust-trail.png';
 import Image8 from '../../public/general-photos/extended.png';
-import Image9 from '../../public/general-photos/groundcut.png';
-import Image10 from '../../public/general-photos/prune.png';
-import Image11 from '../../public/general-photos/repel.png';
-import Image12 from '../../public/general-photos/repel2.png';
+import Image9 from '../../public/old_photos/groundcut.png';
+import Image10 from '../../public/general-photos/melvin-point.png';
+import Image11 from '../../public/old_photos/repel.png';
+import Image12 from '../../public/old_photos/repel2.png';
 import Image13 from '../../public/general-photos/right-branch-climb.jpg';
 import Image14 from '../../public/general-photos/rot.jpg';
-import Image15 from '../../public/general-photos/saw-dust-smile.png';
-import Image16 from '../../public/general-photos/shoulder.png';
-import Image17 from '../../public/general-photos/side.png';
-import Image18 from '../../public/general-photos/wrist.png';
+import Image15 from '../../public/old_photos/saw-dust-smile.png';
+import Image16 from '../../public/old_photos/shoulder.png';
+import Image17 from '../../public/old_photos/side.png';
+import Image18 from '../../public/general-photos/square_throw.png';
 
 // icons
 import LeftArrow from '../../public/icons/arrow-left.svg';

@@ -11,8 +11,6 @@ import TonyIcon from '../../public/review-icons/tony-review.jpg';
 import BethanyIcon from '../../public/review-icons/bethany-review.png';
 import TomIcon from '../../public/review-icons/tom-review.png';
 import PrentissIcon from '../../public/review-icons/prentiss-review.png';
-import DeannaIcon from '../../public/review-icons/deanna-review.png';
-import TeriIcon from '../../public/review-icons/teri-review.png';
 
 import BackgroundImage from '../../public/general-photos/guardian-background.jpeg';
 
