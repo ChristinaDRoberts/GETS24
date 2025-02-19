@@ -10,10 +10,10 @@ import PlusIcon from '../public/icons/plus.svg';
 
 export default function Highlights() {
   const data = [
-    { icon: CalendarIcon, text: 'Precision Scheduling', link: '/' },
+    { icon: CalendarIcon, text: 'Professional Crew, Professional Equipment', link: '/' },
     { icon: StarIcon, text: 'Oustanding Results', link: '/photos' },
     { icon: SatisfiedIcon, text: 'Happy Customers', link: '/reviews' },
-    { icon: PlusIcon, text: '13+ Years of Experience', link: '/' },
+    { icon: PlusIcon, text: 'Experience and Certifications', link: '/' },
     { icon: ShieldIcon, text: 'Fully Insured', link: '/' },
     { icon: HeartIcon, text: 'Community-Focused Service', link: '/' },
   ];

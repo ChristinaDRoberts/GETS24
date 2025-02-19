@@ -49,8 +49,8 @@ export default function Home() {
               <Card
                 // TODO change this image
                 image={EmergencyImage}
-                title={'Emergency Serivce'}
-                text={'Lorem ipsum dolor sit amet'}
+                title={'Emergency Mitigation'}
+                text={'Hurricanes, tornadoes, ice storms and heavy rain can all cause fallen trees on your home and other structures. We ae here to quickly and safely mitigate storm damage to get you back into your home and prevent further damage. We will even handle the claim with your insurance company, so you can focus on your immediate needs. '}
               />
               <Card
                 image={RemovalImage}
@@ -64,7 +64,7 @@ export default function Home() {
                 image={PruningImage}
                 title={'Tree Pruning'}
                 text={
-                  'Whether cleaning up after years of neglect or yearly pruning, we can redeem your trees to a healthy and safe state in many cases!'
+                  'Are your trees in need of attention after years of neglect or just a yearly pruning? We can help redeem your trees to a healthy and safe state and prepare your trees for many years of beautiful growth in the future!'
                 }
               />
               <Card
@@ -234,7 +234,7 @@ export default function Home() {
 
               <ResponsiveCard
                 image={EmergencyImage}
-                title={'Emergency Serivce'}
+                title={'Emergency Mitigation'}
                 text={'Lorem ipsum dolor sit amet'}
               />
               <ResponsiveCard
@@ -412,7 +412,7 @@ export default function Home() {
 
             <ResponsiveCard
               image={RemovalImage}
-              title={'Emergency Service'}
+              title={'Emergency Mitigation'}
               text={'Lorem ipsum dolor sit amet'}
             />
             <ResponsiveCard
